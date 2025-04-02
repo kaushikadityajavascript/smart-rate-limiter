@@ -1,0 +1,29 @@
+{
+  "name": "smart-rate-limiter",
+  "version": "1.1.0",
+  "description": "A smart rate limiter with Redis, Mongoose, and Sequelize support.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+ "keywords": [
+    "rate limiter", 
+    "express", 
+    "adaptive", 
+    "smart-rate-limiter", 
+    "express-rate-limiter", 
+    "rate-limit", 
+    "smart-limiter", 
+    "adaptive-rate-limiter"
+  ],
+  "author": "Kaushik Aditya",
+  "license": "ISC",
+  "dependencies": {
+    "express-rate-limit": "^7.5.0",
+    "ioredis": "^5.6.0",
+    "mongoose": "^8.13.1",
+    "node-cache": "^5.1.2",
+    "rate-limit-redis": "^4.2.0",
+    "sequelize": "^6.37.7"
+  }
+}

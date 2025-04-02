@@ -1,0 +1,34 @@
+# Node.js
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+jspm_packages/
+
+# Testing
+coverage/
+
+# dotenv environment variables file
+.env
+
+# npm package lock file
+package-lock.json
+
+# build output
+/dist
+/build
+
+# IDE and editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# NPM package artifacts
+*.tgz
