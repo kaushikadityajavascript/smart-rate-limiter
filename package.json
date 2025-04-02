@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
- "keywords": [
+  "keywords": [
     "rate limiter", 
     "express", 
     "adaptive", 
@@ -16,8 +16,20 @@
     "smart-limiter", 
     "adaptive-rate-limiter"
   ],
-  "author": "Kaushik Aditya",
+  "author": {
+    "name": "Kaushik Aditya",
+    "email": "kaushikaditya.077@gmail.com",
+    "url": "https://github.com/kaushikadityajavascript"
+  },
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaushikadityajavascript/smart-rate-limiter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-github-username/smart-rate-limiter/issues"
+  },
+  "homepage": "https://github.com/your-github-username/smart-rate-limiter#readme",
   "dependencies": {
     "express-rate-limit": "^7.5.0",
     "ioredis": "^5.6.0",
